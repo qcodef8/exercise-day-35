@@ -7,6 +7,7 @@ import ProfileCard from "../../pages/ProfileCard";
 import ProductList from "../../pages/ProductList";
 import CommentSystem from "../../pages/CommentSystem";
 import WeatherApp from "../../pages/WeatherApp";
+import ButtonDemo from "../../pages/ButtonDemo";
 import Navigation from "../../layout/Navigation";
 
 function AppRoutes() {
@@ -34,6 +35,9 @@ function AppRoutes() {
                 <Route
                     path="/exercise-day-35/weather-app"
                     element={<WeatherApp />}></Route>
+                <Route
+                    path="/exercise-day-35/button-demo"
+                    element={<ButtonDemo />}></Route>
             </Routes>
         </Router>
     );

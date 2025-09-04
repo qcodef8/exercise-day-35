@@ -8,9 +8,10 @@ function Navigation() {
         { path: "/exercise-day-35/counter-app", label: "Counter App" },
         { path: "/exercise-day-35/todo-list-app", label: "Todo List" },
         { path: "/exercise-day-35/profile-card", label: "Profile Card" },
-        { path: "/exercise-day-35/product-list", label: "Products" },
-        { path: "/exercise-day-35/comment-system", label: "Comments" },
-        { path: "/exercise-day-35/weather-app", label: "Weather" },
+        { path: "/exercise-day-35/product-list", label: "Product List" },
+        { path: "/exercise-day-35/comment-system", label: "Comment System" },
+        { path: "/exercise-day-35/weather-app", label: "Weather App" },
+        { path: "/exercise-day-35/button-demo", label: "Button Demo" },
     ];
 
     const className = ({ isActive }) =>
